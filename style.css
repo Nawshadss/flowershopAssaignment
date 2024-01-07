@@ -17,7 +17,7 @@ header {
   gap: 100px;
 }
 .img {
-  width: 635px;
+  width: 580px;
   height: 800px;
 }
 
@@ -43,4 +43,144 @@ button {
   padding: 20px 43px;
   border: none;
   color: #fff;
+}
+
+/* main section */
+
+/* feture section */
+
+section {
+  margin-top: 100px;
+  width: 75%;
+  margin: 100px auto 0px;
+}
+.ourFeature h1,
+.ourFeature p {
+  text-align: center;
+}
+
+.flower {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+.single-flower {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 464px;
+  height: 538px;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.single-flower img {
+  height: 100%;
+  width: 90%;
+}
+
+.flowertitle {
+  display: flex;
+}
+
+h4 {
+  text-align: center;
+  color: #272727;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
+  width: 464px;
+}
+/* icons section */
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  height: 320px;
+  align-items: center;
+  text-align: center;
+}
+.offer {
+  width: 100%;
+  height: 620px;
+  justify-content: center;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+.offer .offerimg {
+}
+.offer .offerTitle {
+  width: 600px;
+  align-items: center;
+  text-align: center;
+}
+
+.instagrm h1,
+.instagrm p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.flowerbase {
+  display: flex;
+  justify-content: space-evenly;
+}
+.instagrm {
+  width: 75%;
+  margin: 100px auto;
+}
+
+.search {
+  background-image: url("./Flower Asset/Rectangle 9.png");
+  height: 449px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.searchBar input {
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+/* fotter */
+footer {
+  height: 449px;
+  background: #111010;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  justify-content: start;
+  gap: 6rem;
+  flex-direction: column;
+}
+footer h1 {
+  margin-top: 40px;
+  color: #fff;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.footerh4 {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
 }
